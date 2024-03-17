@@ -1,0 +1,29 @@
+.feedContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.combinedContainer {
+  border: 1px solid #E1E8ED;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.authorName {
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 1px dashed #657786;
+  padding-bottom: 5px;
+  margin: 10px 0 5px 22px;
+}
+
+.actionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

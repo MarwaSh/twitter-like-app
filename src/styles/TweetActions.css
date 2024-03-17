@@ -1,0 +1,33 @@
+.actionContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .characterCount {
+    margin-right: 10px;
+    color: #657786;
+  }
+
+  .separator {
+    height: 20px;
+    width: 1px;
+    background-color: #AAB8C2;
+    margin: 0 15px;
+  }
+  
+  .tweetButton {
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .tweetButton:disabled {
+    background-color: #a4d9f9;
+    cursor: default;
+  }
+  
