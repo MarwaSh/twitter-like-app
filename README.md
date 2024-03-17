@@ -29,5 +29,5 @@ The application should now be running on `http://localhost:3000`.
 - Enter your message in the input field and click the "Tweet" button to post.
 - The application supports basic input validation, highlighting errors or missing fields.
 
-![Screenshot of Application](/images/Screenshot.png "Application Screenshot")
+![Screenshot of Application](/src/images/Screenshot.png "Application Screenshot")
 
