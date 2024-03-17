@@ -30,3 +30,6 @@ The application should now be running on `http://localhost:3000`.
 - The application supports basic input validation, highlighting errors or missing fields.
 
 
+![Screenshot of Application](/images/Screenshot 2024-03-17 122735.png "Screenshot of Application")
+
+
