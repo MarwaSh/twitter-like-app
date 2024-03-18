@@ -1,3 +1,4 @@
+import React, { useMemo } from 'react';
 import  '../styles/TweetActions.css';
 
 interface TweetActionsProps {
@@ -7,9 +8,14 @@ interface TweetActionsProps {
   }
   
   const TweetActions: React.FC<TweetActionsProps> = ({ characterLimit, newTweetContent, handlePostTweet }) => {
+    
+    const characterCountStyle = useMemo(() => ({
+      color: newTweetContent.length > characterLimit ? 'red' : '#657786'
+    }), [newTweetContent.length]);
+
     return (
       <div className='actionContainer'>
-        <span className="characterCount" style={{ color: newTweetContent.length > characterLimit ? 'red' : '#657786' }}>
+        <span className="characterCount" style={characterCountStyle}>
           {characterLimit - newTweetContent.length}
         </span>
         <span className="separator"></span> 

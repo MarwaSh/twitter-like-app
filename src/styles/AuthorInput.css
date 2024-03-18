@@ -1,0 +1,18 @@
+.authorInput {
+    width: 30%;
+    padding: 8px 10px;
+    margin: 0 0 8px 12px;
+    border: none;
+    border-bottom: 1px dashed #E1E8ED;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #14171A;
+    background-color: #FFF;
+  }
+  
+  .authorInput:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #1da1f2;
+  }
+  

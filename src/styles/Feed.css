@@ -27,3 +27,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.bottomSeparator {
+  height: 1px;
+  background-color: #E1E8ED;
+  width: 100%;
+  margin: 5px 0;
+}

@@ -6,12 +6,23 @@
   color: #14171A;
   overflow-y: auto; 
   overflow-x: hidden;
- 
+  border-radius: 3px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-.author {
+.tweetContainer:hover {
+  background-color: #f7f7f7;
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tweetAuthorName {
   font-weight: bold;
   color: #14171A;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 550px;
 }
 
 .content {

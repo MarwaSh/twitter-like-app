@@ -25,9 +25,14 @@
     border-radius: 20px;
     cursor: pointer;
   }
+
+  .tweetButton:hover {
+    cursor: pointer;
+    background-color: #1A8CD8;
+  }
   
   .tweetButton:disabled {
     background-color: #a4d9f9;
     cursor: default;
-  }
+  }  
   
