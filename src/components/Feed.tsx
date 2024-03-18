@@ -69,14 +69,18 @@ const Feed: React.FC = () => {
         />
       </div>
       <div className="bottomSeparator"></div>
-      {sortedTweets.slice(0, visibleTweetsCount).map((tweet, index) => (
+      {sortedTweets.length> 0 ? (
+      sortedTweets.slice(0, visibleTweetsCount).map((tweet, index) => (
         <Tweet
           key={index}
           authorName={tweet.authorName}
           content={tweet.content}
           date={tweet.date}
         />
-      ))}
+      ))
+      ) : (
+        <div className="emptyFeedMessage">No tweets to display. Be the first to post something!</div>
+      ) }
     </div>
   );
 };

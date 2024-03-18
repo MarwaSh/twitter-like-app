@@ -19,4 +19,3 @@ interface TweetInputProps {
   };
   
   export default TweetInput;
-  

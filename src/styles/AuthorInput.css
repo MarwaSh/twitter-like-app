@@ -16,3 +16,8 @@
     border-bottom: 1px dashed #1da1f2;
   }
   
+  @media (max-width: 600px) {
+    .authorInput {
+        font-size: 14px;
+    }  
+  }

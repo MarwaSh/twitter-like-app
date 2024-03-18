@@ -18,4 +18,4 @@ const AuthorInput: React.FC<AuthorInputProps> = ({ authorName, setAuthorName }) 
   );
 };
 
-export default AuthorInput;
+export default React.memo(AuthorInput);
